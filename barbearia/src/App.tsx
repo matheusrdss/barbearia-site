@@ -17,13 +17,18 @@ function App() {
           <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656519741~hmac=b6d3c542f1bbe4e8906bf9c6373f1b1f" alt="" className="icon" />
           </div>
         </div>
-        <div className="nosso-espaco">
-          <h1 className="foto">Nosso espaço</h1>
+        <div className="seta-div">
+          <img src="https://cdn-icons-png.flaticon.com/512/56/56747.png" alt="" className="seta" />
         </div>
-        <div className="local-fotos">
-            <img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg" alt="" className="img1" />
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlQCZ_FeCkVpopAbH4B77gfK-u0PuZFoRJiA&usqp=CAU" alt="" className="img2" />
-            <img src="https://cdn.shopify.com/s/files/1/0408/8473/articles/header_10-barbearias_b99bc3d5-2ed1-435e-a2ee-bf091ba5c0ac.jpg?v=1568418224" alt="" className="img3" />
+        <div className="sobre-nos">
+          <div className="info-sobre-nos">
+            <h1 className='sobre-title' >SOBRE NOS</h1>
+            <p className="sobre-nos-p">Toalha quente, navalha, cavalheirismo. Na Barbearia o homem pode cortar o cabelo em ambiente personalizado, só para o público masculino, com atendimento diferenciado, toalha quente, navalha, café, recepcionista, manobrista, marcação de horário por aplicativo. Uma barbearia realmente conceito. Todos os colaboradores são treinados por ele, para que haja uma padronização e para que todos falem a mesma “linguagem”.</p>
+          </div>
+          <img src="https://blog.beard.com.br/wp-content/uploads/2017/05/barbearia-ruiz-03.jpeg" alt="" className="local" />
+        </div>
+        <div className="space">
+          <h1><a href=""></a></h1>
         </div>
       </div>
     </>

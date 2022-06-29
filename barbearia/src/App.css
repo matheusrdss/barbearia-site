@@ -58,38 +58,57 @@
   width: 50%;
 }
 
-/* IMAGENS */
-
-.nosso-espaco {
-  margin-top: 5rem;
+.seta-div {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
+  animation: float 6s ease-in-out infinite;
 }
 
-.foto {
+@keyframes float{
+	0%,100%{
+		transform:translatey(0)
+	}
+	50%{
+		transform:translatey(-20px)
+	}
+}
+
+.seta {
+  width: 2%;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* SOBRE NOS */
+
+.sobre-nos {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.local-fotos {
-  display: flex;
+.info-sobre-nos {
+  width: 40%;
+  margin-left: 3rem;
+  margin-right: 10rem;
+}
+
+.sobre-nos-p {
   margin-top: 1rem;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.2rem;
 }
 
-.img1 {
-  width: 20%;
-  margin: 1rem;
+.local {
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0.5rem 0.5rem 2rem black;
 }
 
-.img2 {
-  width: 20%;
-  margin: 1rem;
-}
-
-.img3 {
-  width: 25%;
-  height: 225%;
-  margin: 1rem;
+.space {
+  background-color: white;
+  width: 100%;
+  height: 100rem;
 }
