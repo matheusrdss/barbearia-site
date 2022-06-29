@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Servico from './components/Servico';
 
 function App() {
   return (
@@ -27,8 +28,18 @@ function App() {
           </div>
           <img src="https://blog.beard.com.br/wp-content/uploads/2017/05/barbearia-ruiz-03.jpeg" alt="" className="local" />
         </div>
+        <div className="servicos">
+          <div className="serv1">
+            <img src="" alt="" className="serv1-img" />
+            <h1 className="sobre-serv1"></h1>
+          </div>
+          <Servico name="oi"/>
+        </div>
         <div className="space">
           <h1><a href=""></a></h1>
+        </div>
+        <div className="div-criador">
+          <h1 className="criador">Criado por Matheus Rodrigo 2022</h1>
         </div>
       </div>
     </>
