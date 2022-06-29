@@ -1,7 +1,15 @@
 import React from 'react';
+import './Servico.css';
 
-function Welcome(props) {
-    return <h1>Olá, {props.name}</h1>;
+function Servico(props: any) {
+    return (
+      <>
+        <div className="servico-div">
+          <img className='img' src={props.imgs} alt="" />
+          <h1 className='text'>{props.text}</h1>
+        </div>
+      </>
+    );
   }
 
-export default Welcome
+export default Servico
