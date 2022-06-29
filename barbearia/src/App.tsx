@@ -14,8 +14,11 @@ function App() {
             <button className="contato-b">Entrar em contato</button>
           </div>
           <div className="info-right">
-          <img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg" alt="" className="icon" />
+          <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656519741~hmac=b6d3c542f1bbe4e8906bf9c6373f1b1f" alt="" className="icon" />
           </div>
+        </div>
+        <div className="nosso-espaco">
+          <h1 className="foto">Nosso espaço</h1>
         </div>
         <div className="local-fotos">
             <img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg" alt="" className="img1" />
