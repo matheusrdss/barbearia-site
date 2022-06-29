@@ -14,7 +14,7 @@ function App() {
             <button className="contato-b">Entrar em contato</button>
           </div>
           <div className="info-right">
-            <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656512025~hmac=067ad3f8a451bde54e407043d47a8ffd" alt="" className="icon" />
+          <img src="https://graces.com.br/wp-content/uploads/2019/02/o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg" alt="" className="icon" />
           </div>
         </div>
         <div className="local-fotos">
