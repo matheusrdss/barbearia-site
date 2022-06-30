@@ -17,3 +17,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.7rem;
 }
+
+@media screen and (max-width: 720px){
+    .servico-div {
+        margin-bottom: 2rem;
+    }
+
+    .img {
+        width: 90%;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -53,3 +53,27 @@
     color: white;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 720px) {
+    .Navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: -0rem;
+        text-align: center;
+    }
+
+    .links {
+        display: none;
+    }
+}

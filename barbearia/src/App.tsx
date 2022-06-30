@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import Button from './components/Button';
+import Btforms from './components/Button';
 import Navbar from './components/Navbar';
 import Servico from './components/Servico';
 
@@ -13,10 +14,12 @@ function App() {
           <div className="info-left">
             <h1 className="titulo">Você não pode confiar em qualquer um com seu cabelo.</h1>
             <p className="sobre">A eficiencia que você procura somente nós podemos proporcionar</p>
-            <Button text="Entrar em contato"/>
+            <div className="bt-inicio">
+              <Button text="Entrar em contato"/>
+            </div>
           </div>
           <div className="info-right">
-          <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656587047~hmac=347f887e5a19302515516f0b999a5137" alt="" className="icon" />
+            <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656587047~hmac=347f887e5a19302515516f0b999a5137" alt="" className="icon" />
           </div>
         </div>
         <div className="seta-div">
@@ -43,7 +46,7 @@ function App() {
           <div className="segunda-parte">
             <div className="loc-contato">
               <h1 className="loc">Rua Silva Jardim, 1834 - Boa Vista - São José do Rio Preto/SP</h1>
-              <h1 className="loc">Email - faleconosco@barbeariarockclube.com.br</h1>
+              <h1 className="loc">contato@contato.com</h1>
               <h1 className="loc">Telefone - +55 17 3234.4805</h1>
             </div>
             <div className="forms">
@@ -51,7 +54,7 @@ function App() {
                <input placeholder='Email' type="email" className="forms-name input" />
                <input placeholder='Número' type="number" className="forms-name input" />
                <input placeholder='Mensagem' type="text" className="forms-name input" />
-              <Button className="bt" text="Enviar"/>
+               {/* <Btforms className="aa" text="Enviar"/> */}
             </div>
           </div>
         </div>
@@ -59,7 +62,7 @@ function App() {
           <h1><a href=""></a></h1>
         </div>
         <div className="div-criador">
-          <h1 className="criador">Criado por Matheus Rodrigo 2022</h1>
+          <h1 className="criador">Criado 2022</h1>
         </div>
       </div>
     </>
