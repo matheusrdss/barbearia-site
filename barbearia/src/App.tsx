@@ -16,7 +16,7 @@ function App() {
             <Button text="Entrar em contato"/>
           </div>
           <div className="info-right">
-          <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656519741~hmac=b6d3c542f1bbe4e8906bf9c6373f1b1f" alt="" className="icon" />
+          <img src="https://cdn-icons.flaticon.com/png/512/856/premium/856572.png?token=exp=1656587047~hmac=347f887e5a19302515516f0b999a5137" alt="" className="icon" />
           </div>
         </div>
         <div className="seta-div">
