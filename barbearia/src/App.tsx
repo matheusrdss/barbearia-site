@@ -54,7 +54,7 @@ function App() {
                <input placeholder='Email' type="email" className="forms-name input" />
                <input placeholder='Número' type="number" className="forms-name input" />
                <input placeholder='Mensagem' type="text" className="forms-name input" />
-               {/* <Btforms className="aa" text="Enviar"/> */}
+               <Btforms className="aa" text="Enviar"/>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ function App() {
           <h1><a href=""></a></h1>
         </div>
         <div className="div-criador">
-          <h1 className="criador">Criado 2022</h1>
+          <h1 className="criador">Criado por Matheus 2022</h1>
         </div>
       </div>
     </>

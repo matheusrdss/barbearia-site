@@ -1,11 +1,13 @@
 import * as React from 'react';
 import './Navbar.css';
+import barber from './barber-pole.png';
 
 function Navbar() {
     return (
         <>
             <div className="Navbar">
                 <div className="logo-div">
+                    <img src={barber} alt="" className="ico" />
                     <h1 className="logo">Barbearia</h1>
                 </div>
                 <div className="links">

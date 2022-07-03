@@ -11,10 +11,18 @@
     justify-content: space-between;
 }
 
+.logo-div {
+    display: flex;
+}
+
 .logo {
     color: white;
-    margin-left: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ico {
+    width: 5%;
+    margin-left: 2rem;
 }
 
 .links {
@@ -59,6 +67,10 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .ico {
+        width: 7%;
     }
 
     .logo-div {
