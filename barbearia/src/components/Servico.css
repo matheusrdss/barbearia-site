@@ -12,14 +12,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(37, 31, 28);
+    background-color: rgb(134, 129, 126);
     /* margin-right: 7rem; */
+    box-shadow: 0.5rem 0.5rem 1.5rem black;
 }
 
 .text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.7rem;
     color: white;
+}
+
+.img {
+    width: 90%;
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 720px){

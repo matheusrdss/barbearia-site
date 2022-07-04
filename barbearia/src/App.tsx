@@ -4,6 +4,9 @@ import Button from './components/Button';
 import Btforms from './components/Button';
 import Navbar from './components/Navbar';
 import Servico from './components/Servico';
+import Navalha from './navalha.png';
+import Cabelo from './m.png';
+import Cerveja from './cerveja.png';
 
 function App() {
   return (
@@ -33,9 +36,9 @@ function App() {
           <img src="https://blog.beard.com.br/wp-content/uploads/2017/05/barbearia-ruiz-03.jpeg" alt="" className="local-img" />
         </div>
         <div className="servicos">
-          <Servico text="Barba" imgs="https://barbeariarockclube.com.br/wp-content/uploads/2013/07/service_beard.png"/>
-          <Servico text="Cabelo" imgs="https://barbeariarockclube.com.br/wp-content/uploads/2013/07/service_hair.png"/>
-          <Servico text="Boteco" imgs="https://barbeariarockclube.com.br/wp-content/uploads/2013/07/service_beer.png"/>
+          <Servico text="Barba" imgs={Navalha}/>
+          <Servico text="Cabelo" imgs={Cabelo}/>
+          <Servico text="Boteco" imgs={Cerveja}/>
         </div>
         <div className="div-contato">
           <div className="info-contato">
@@ -49,13 +52,13 @@ function App() {
               <h1 className="loc">contato@contato.com</h1>
               <h1 className="loc">Telefone - +55 17 3234.4805</h1>
             </div>
-            <div className="forms">
+            {/* <div className="forms">
                <input placeholder='Nome' type="text" className="forms-name input" />
                <input placeholder='Email' type="email" className="forms-name input" />
                <input placeholder='Número' type="number" className="forms-name input" />
                <input placeholder='Mensagem' type="text" className="forms-name input" />
                <Btforms className="aa" text="Enviar"/>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="space">
